@@ -16,4 +16,4 @@ Kroki wykonane w realizacji zadania:
 - zakomentowałem welcome.conf i zezwoliłem na dostep do /var/www/html w /etc/httpd/conf/httpd.conf
 - potwierdziłem, ze stronka działa w przegladarce
 - zrestartowałem maszyne, żeby sprawdzić czy dalej bedzie działać
-![](itsalive.png)
+![](https://i.imgur.com/wgIOt9e.jpg)
