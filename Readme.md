@@ -20,5 +20,5 @@ Kroki wykonane w realizacji zadania:
 
 
 EDIT:
-- uprawnienia roota można też uzyskać uruchamiajac kontener z podmonontowanym /etc/passwd i podmienić uid i gid zdt na 0, nie wpadłem na to żeby sprawdzić czy na maszynie sa juz jakies pobrane obrazy a bez dnsa byłby problem z pobraniem nowych
+- uprawnienia roota można też uzyskać uruchamiajac kontener z podmonontowanym dowolnym plikiem odpowiadajacym za uprawnienia /etc/passwd, /etc/sudoers itd. i podnieść sobie uprawnienia, nie wpadłem na to żeby sprawdzić czy na maszynie sa juz jakies pobrane obrazy a bez dnsa byłby problem z pobraniem nowych
 - co do uruchomienia htmla z domyślnego katalogu bez tworzenia linków to mógłbym zrobić mount --bind lub zwyczajnie dodać przestrzeni dyskowej i rozszerzyć /dev/mapper/vg_main-www ale w dalszym ciagu link wydaje mi sie lepszym rozwiazaniem, inne nie przychodza mi do głowy
